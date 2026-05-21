@@ -17,7 +17,9 @@ The dictionary page loads in a dedicated, single-instance floating window that s
 - **Zero-Warning Permission Profile:** Uses local storage API which requires no intrusive or scary browser warnings on installation.
 
 ---
-
+Example usage: ![Normal popup](images/example.png)
+![Large-window popup](images/largeExample.png)
+---
 ## Default Keyboard Shortcuts
 
 | Platform | Standard Popup (Normal Size) | Large Popup (Expanded Size) |
@@ -39,6 +41,7 @@ Text lookup (Normal popup)
 
 Text lookup (Large window popup)
 ```
+![alt text](images/ExShortcuts.png)
 ---
 
 ## Installation Guide

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Quick Oxford Lookup",
   "version": "2.4",
-  "description": "Highlight text and press a shortcut key to quickly search the Oxford Learner's Dictionary in a floating popup window.",
+  "description": "Highlight any word and press a shortcut key to quickly search the Oxford Dictionary in a floating window.",
   "permissions": [
     "activeTab",
     "scripting",
