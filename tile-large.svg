@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560">
+  <defs>
+    <!-- Nền Gradient xanh da trời nhạt rộng -->
+    <linearGradient id="bgGradLarge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F0F9FF" />
+      <stop offset="100%" stop-color="#E0F2FE" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1400" height="560" fill="url(#bgGradLarge)" />
+
+  <!-- Họa tiết ML blueprint lớn phía nền -->
+  <g opacity="0.12" stroke="#0284C7" stroke-width="2.5">
+    <line x1="80" y1="100" x2="280" y2="60" />
+    <line x1="280" y1="60" x2="420" y2="200" />
+    <circle cx="80" cy="100" r="8" fill="#0284C7" />
+    <circle cx="280" cy="60" r="8" fill="#0284C7" />
+    <circle cx="420" cy="200" r="8" fill="#0284C7" />
+  </g>
+
+  <g id="star-constellations" opacity="0.22">
+    
+    <polyline points="910,420 1000,410 1080,435 1170,450" fill="none" stroke="#0284C7" stroke-width="1.5" stroke-linejoin="round" />
+    <polygon points="1170,450 1210,520 1320,510 1320,420" fill="none" stroke="#0284C7" stroke-width="1.5" stroke-linejoin="round" />
+    
+    <circle cx="910" cy="420" r="7" fill="#0284C7" /> 
+    <circle cx="1000" cy="410" r="7" fill="#0284C7" /> 
+    <circle cx="1080" cy="435" r="7" fill="#0284C7" /> 
+    <circle cx="1170" cy="450" r="7" fill="#0284C7" /> 
+    <circle cx="1210" cy="520" r="7" fill="#0284C7" /> 
+    <circle cx="1320" cy="510" r="7" fill="#0284C7" /> 
+    <circle cx="1320" cy="420" r="8.5" fill="#0284C7" opacity="0.9" /> 
+    <line x1="1320" y1="420" x2="1320" y2="120" stroke="#0284C7" stroke-width="1.2" stroke-dasharray="5,5" opacity="0.6" />
+
+    <polyline points="1320,150 1260,160 1200,180 1150,220 1110,300 1045,285 1085,195 1150,220" fill="none" stroke="#0284C7" stroke-width="1.2" stroke-linejoin="round" />
+    
+    <circle cx="1260" cy="160" r="6" fill="#861F41" /> 
+    <circle cx="1200" cy="180" r="6" fill="#861F41" /> 
+    <circle cx="1150" cy="220" r="6" fill="#861F41" /> 
+    <circle cx="1110" cy="300" r="6" fill="#861F41" /> 
+    <circle cx="1045" cy="285" r="6" fill="#861F41" /> 
+    <circle cx="1085" cy="195" r="6" fill="#861F41" /> 
+    <!-- <text x="1305" y="105" font-family="'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="bold" fill="#0284C7" opacity="0.8">Polaris (North Star)</text> -->
+    <!-- <text x="1040" y="165" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" fill="#0284C7" opacity="0.6">Ursa Minor</text> -->
+    <!-- <text x="1050" y="540" font-family="'Segoe UI', Roboto, sans-serif" font-size="13" fill="#0284C7" opacity="0.6">Ursa Major (Big Dipper)</text> -->
+  </g>
+
+  <g id="polaris-star" opacity="0.85">
+    <polygon points="1320,130 1325,145 1340,150 1325,155 1320,170 1315,155 1300,150 1315,145" fill="#861F41" opacity="0.6" />
+    <circle cx="1320" cy="150" r="3.5" fill="#FFFFFF" />
+  </g>
+
+
+  <!-- ======================================================= -->
+  <!-- 2 KHUNG ĐỊNH VỊ LOGO LỚN Ở GÓC TRÊN TOÀN THỂ (ĐỐI XỨNG) -->
+  <!-- ======================================================= -->
+  <!-- Góc trên bên trái: Khung định vị Logo trường ĐH Korea lớn -->
+  <!-- <rect x="50" y="35" width="96" height="120" fill="none" stroke="#861F41" stroke-width="2" stroke-dasharray="4" opacity="0.6" /> -->
+  <image href="korea_univ_logo.png" x="50" y="35" width="96" height="120" />
+
+  <!-- Góc trên bên phải: Khung định vị Logo SDML Lab lớn -->
+  <!-- <circle cx="1290" cy="95" r="60" fill="none" stroke="#0284C7" stroke-width="2" stroke-dasharray="4" opacity="0.6" /> -->
+  <image href="sdml_logo.png" x="1230" y="35" width="120" height="120" />
+
+  <!-- LOGO LỤC GIÁC TRUNG TÂM CỦA TIỆN ÍCH -->
+  <g>
+    <polygon points="320,130 320,430 190,355 190,205" fill="#002147" />
+    <polygon points="320,130 450,205 450,355 320,430" fill="#FFFFFF" />
+    <polygon points="320,130 450,205 450,355 320,430 190,355 190,205" fill="none" stroke="#002c5e" stroke-width="8" stroke-linejoin="round" />
+    <line x1="320" y1="130" x2="320" y2="430" stroke="#002c5e" stroke-width="8" />
+    <circle cx="255" cy="280" r="44" fill="none" stroke="#00BFFF" stroke-width="11" />
+    <path d="M 277 302 L 301 326" stroke="#00BFFF" stroke-width="11" stroke-linecap="round" />
+    <path d="M 345 235 H 425 V 280 Q 425 305 385 325 Q 345 305 345 280 Z" fill="#002147" />
+    <path d="M 360 257.5 Q 385 250 385 257.5 L 385 292.5 Q 385 285 360 292.5 Z" fill="#FFFFFF" />
+    <path d="M 410 257.5 Q 385 250 385 257.5 L 385 292.5 Q 385 285 410 292.5 Z" fill="#FFFFFF" />
+    <path d="M 365 267.5 H 380 M 365 277.5 H 380" stroke="#002147" stroke-width="2" />
+    <path d="M 390 267.5 H 405 M 390 277.5 H 405" stroke="#002147" stroke-width="2" />
+  </g>
+
+  <!-- PHẦN CHỮ TIÊU ĐỀ TIỆN ÍCH -->
+  <text x="510" y="210" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="80" font-weight="bold" fill="#0F172A">Quick Oxford</text>
+  <text x="510" y="275" font-family="'Segoe UI', Roboto, Helvetica, sans-serif" font-size="80" font-weight="bold" fill="#0284C7">Lookup</text>
+  
+  <!-- ======================================================= -->
+  <!-- HÀNG CHI TIẾT DƯỚI (MÀU SÁNG RÕ NÉT)                     -->
+  <!-- ======================================================= -->
+  <!-- Dòng 1: Tên Lab in nghiêng + Khung định vị Logo SDML Lab lớn bên phải -->
+  <text x="480" y="460" font-family="'Segoe UI', Roboto, sans-serif" font-style="italic" font-size="20" fill="#334155" letter-spacing="0.5">Stochastic Dynamics and Machine Learning (SDML) lab</text>
+  <!-- <rect x="1120" y="328" width="72" height="72" fill="none" stroke="#0284C7" stroke-width="1.5" stroke-dasharray="3" opacity="0.6" /> -->
+  <image href="sdml_logo.png" x="1120" y="328" width="72" height="72" />
+
+  <!-- Dòng 2: Khung định vị Logo ĐH Korea lớn bên trái + Tên Trường in nghiêng đỏ -->
+  <!-- <rect x="510" y="395" width="64" height="80" fill="none" stroke="#861F41" stroke-width="1.5" stroke-dasharray="3" opacity="0.6" /> -->
+  <image href="korea_univ_logo.png" x="510" y="395" width="64" height="80" />
+  <text x="564" y="500" font-family="'Segoe UI', Roboto, sans-serif" font-style="italic" font-weight="bold italic" font-size="26" fill="#861F41" letter-spacing="1.5">KOREA UNIVERSITY</text>
+</svg>
