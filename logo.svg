@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Nửa trái lục giác đều (Nền xanh Oxford đậm) -->
+  <polygon points="64,4 64,124 12,94 12,34" fill="#002147" />
+  
+  <!-- Nửa phải lục giác đều (Nền trắng) -->
+  <polygon points="64,4 116,34 116,94 64,124" fill="#FFFFFF" />
+  
+  <!-- Viền bao quanh toàn bộ lục giác tạo tính thống nhất -->
+  <polygon points="64,4 116,34 116,94 64,124 12,94 12,34" fill="none" stroke="#002147" stroke-width="4" stroke-linejoin="round" />
+  
+  <!-- Đường phân chia dọc ở giữa -->
+  <line x1="64" y1="4" x2="64" y2="124" stroke="#002147" stroke-width="4" />
+
+  <!-- Thiết kế nửa trái: Chữ Q tối giản màu xanh da trời đậm -->
+  <!-- Vòng tròn của chữ Q -->
+  <circle cx="38" cy="64" r="18" fill="none" stroke="#00BFFF" stroke-width="5" />
+  <!-- Râu của chữ Q -->
+  <path d="M 47 73 L 56 82" stroke="#00BFFF" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Thiết kế nửa phải: Biểu tượng Oxford Shield cách điệu màu xanh Oxford -->
+  <!-- Hình Khiên -->
+  <path d="M 74 46 H 106 V 64 Q 106 74 90 82 Q 74 74 74 64 Z" fill="#002147" />
+  <!-- Trang sách mở màu trắng nằm bên trong Khiên -->
+  <path d="M 80 55 Q 90 52 90 55 L 90 69 Q 90 66 80 69 Z" fill="#FFFFFF" />
+  <path d="M 100 55 Q 90 52 90 55 L 90 69 Q 90 66 100 69 Z" fill="#FFFFFF" />
+  <!-- Các dòng chữ tượng trưng trong sách -->
+  <path d="M 82 59 H 88 M 82 63 H 88" stroke="#002147" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M 92 59 H 98 M 92 63 H 98" stroke="#002147" stroke-width="1.2" stroke-linecap="round" />
+</svg>

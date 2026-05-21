@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Oxford Lookup",
+  "version": "2.4",
+  "description": "Highlight text and press a shortcut key to quickly search the Oxford Learner's Dictionary in a floating popup window.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "lookup-oxford": {
+      "suggested_key": {
+        "default": "Ctrl+E",
+        "mac": "Command+E"
+      },
+      "description": "Text lookup (Normal popup)"
+    },
+    "lookup-oxford-large": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+E",
+        "mac": "Command+Shift+E"
+      },
+      "description": "Text lookup (Large window popup)"
+    }
+  }
+}
